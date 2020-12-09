@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16430395258114E700BE9E62 /* FoodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16430394258114E700BE9E62 /* FoodViewModel.swift */; };
+		164303992581163E00BE9E62 /* FoodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164303982581163E00BE9E62 /* FoodListView.swift */; };
+		164303A0258118CE00BE9E62 /* FoodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1643039F258118CE00BE9E62 /* FoodDetailView.swift */; };
+		164303A525812DD200BE9E62 /* SearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164303A425812DD200BE9E62 /* SearchScreen.swift */; };
+		164303A925812DF600BE9E62 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164303A825812DF600BE9E62 /* HomeScreen.swift */; };
+		164303AC25812E3D00BE9E62 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164303AB25812E3D00BE9E62 /* ProfileScreen.swift */; };
+		164303B12581317400BE9E62 /* MySheetViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164303B02581317400BE9E62 /* MySheetViewModifier.swift */; };
+		164303B72581515000BE9E62 /* MyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164303B62581515000BE9E62 /* MyButtonStyle.swift */; };
+		164303BC2581526000BE9E62 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164303BB2581526000BE9E62 /* Color+Extensions.swift */; };
+		16B630FB257FC81700B664C7 /* otus_QuitSmokingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B630FA257FC81700B664C7 /* otus_QuitSmokingApp.swift */; };
+		16B630FD257FC81700B664C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B630FC257FC81700B664C7 /* ContentView.swift */; };
+		16B630FF257FC81800B664C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16B630FE257FC81800B664C7 /* Assets.xcassets */; };
+		16B63102257FC81800B664C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16B63101257FC81800B664C7 /* Preview Assets.xcassets */; };
+		16B6310B257FD7DD00B664C7 /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B6310A257FD7DD00B664C7 /* FoodModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16430394258114E700BE9E62 /* FoodViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewModel.swift; sourceTree = "<group>"; };
+		164303982581163E00BE9E62 /* FoodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListView.swift; sourceTree = "<group>"; };
+		1643039F258118CE00BE9E62 /* FoodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailView.swift; sourceTree = "<group>"; };
+		164303A425812DD200BE9E62 /* SearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreen.swift; sourceTree = "<group>"; };
+		164303A825812DF600BE9E62 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		164303AB25812E3D00BE9E62 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		164303B02581317400BE9E62 /* MySheetViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySheetViewModifier.swift; sourceTree = "<group>"; };
+		164303B62581515000BE9E62 /* MyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonStyle.swift; sourceTree = "<group>"; };
+		164303BB2581526000BE9E62 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		16B630F7257FC81700B664C7 /* otus.QuitSmoking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = otus.QuitSmoking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16B630FA257FC81700B664C7 /* otus_QuitSmokingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otus_QuitSmokingApp.swift; sourceTree = "<group>"; };
+		16B630FC257FC81700B664C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		16B630FE257FC81800B664C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16B63101257FC81800B664C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		16B63103257FC81800B664C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16B6310A257FD7DD00B664C7 /* FoodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16B630F4257FC81700B664C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1643038E2581130800BE9E62 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				16B6310A257FD7DD00B664C7 /* FoodModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		164303972581162300BE9E62 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				16430394258114E700BE9E62 /* FoodViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		164303A325812DB600BE9E62 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				164303A825812DF600BE9E62 /* HomeScreen.swift */,
+				164303A425812DD200BE9E62 /* SearchScreen.swift */,
+				164303AB25812E3D00BE9E62 /* ProfileScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		164303AF2581314400BE9E62 /* ViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				164303B02581317400BE9E62 /* MySheetViewModifier.swift */,
+			);
+			path = ViewModifier;
+			sourceTree = "<group>";
+		};
+		164303B52581512500BE9E62 /* ButtonStyle */ = {
+			isa = PBXGroup;
+			children = (
+				164303B62581515000BE9E62 /* MyButtonStyle.swift */,
+			);
+			path = ButtonStyle;
+			sourceTree = "<group>";
+		};
+		164303BA2581524700BE9E62 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				164303BB2581526000BE9E62 /* Color+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		16B630EE257FC81700B664C7 = {
+			isa = PBXGroup;
+			children = (
+				16B630F9257FC81700B664C7 /* otus.QuitSmoking */,
+				16B630F8257FC81700B664C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16B630F8257FC81700B664C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16B630F7257FC81700B664C7 /* otus.QuitSmoking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16B630F9257FC81700B664C7 /* otus.QuitSmoking */ = {
+			isa = PBXGroup;
+			children = (
+				164303BA2581524700BE9E62 /* Extensions */,
+				164303A325812DB600BE9E62 /* Screen */,
+				164303972581162300BE9E62 /* ViewModel */,
+				1643038E2581130800BE9E62 /* Model */,
+				164303AF2581314400BE9E62 /* ViewModifier */,
+				164303B52581512500BE9E62 /* ButtonStyle */,
+				164303982581163E00BE9E62 /* FoodListView.swift */,
+				1643039F258118CE00BE9E62 /* FoodDetailView.swift */,
+				16B630FA257FC81700B664C7 /* otus_QuitSmokingApp.swift */,
+				16B630FC257FC81700B664C7 /* ContentView.swift */,
+				16B630FE257FC81800B664C7 /* Assets.xcassets */,
+				16B63103257FC81800B664C7 /* Info.plist */,
+				16B63100257FC81800B664C7 /* Preview Content */,
+			);
+			path = otus.QuitSmoking;
+			sourceTree = "<group>";
+		};
+		16B63100257FC81800B664C7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				16B63101257FC81800B664C7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16B630F6257FC81700B664C7 /* otus.QuitSmoking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16B63106257FC81800B664C7 /* Build configuration list for PBXNativeTarget "otus.QuitSmoking" */;
+			buildPhases = (
+				16B630F3257FC81700B664C7 /* Sources */,
+				16B630F4257FC81700B664C7 /* Frameworks */,
+				16B630F5257FC81700B664C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = otus.QuitSmoking;
+			productName = otus.QuitSmoking;
+			productReference = 16B630F7257FC81700B664C7 /* otus.QuitSmoking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16B630EF257FC81700B664C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					16B630F6257FC81700B664C7 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 16B630F2257FC81700B664C7 /* Build configuration list for PBXProject "otus.QuitSmoking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16B630EE257FC81700B664C7;
+			productRefGroup = 16B630F8257FC81700B664C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16B630F6257FC81700B664C7 /* otus.QuitSmoking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16B630F5257FC81700B664C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B63102257FC81800B664C7 /* Preview Assets.xcassets in Resources */,
+				16B630FF257FC81800B664C7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16B630F3257FC81700B664C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164303992581163E00BE9E62 /* FoodListView.swift in Sources */,
+				164303B12581317400BE9E62 /* MySheetViewModifier.swift in Sources */,
+				16B6310B257FD7DD00B664C7 /* FoodModel.swift in Sources */,
+				16B630FD257FC81700B664C7 /* ContentView.swift in Sources */,
+				164303B72581515000BE9E62 /* MyButtonStyle.swift in Sources */,
+				164303A525812DD200BE9E62 /* SearchScreen.swift in Sources */,
+				164303AC25812E3D00BE9E62 /* ProfileScreen.swift in Sources */,
+				164303A925812DF600BE9E62 /* HomeScreen.swift in Sources */,
+				16430395258114E700BE9E62 /* FoodViewModel.swift in Sources */,
+				16B630FB257FC81700B664C7 /* otus_QuitSmokingApp.swift in Sources */,
+				164303A0258118CE00BE9E62 /* FoodDetailView.swift in Sources */,
+				164303BC2581526000BE9E62 /* Color+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		16B63104257FC81800B664C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16B63105257FC81800B664C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16B63107257FC81800B664C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"otus.QuitSmoking/Preview Content\"";
+				DEVELOPMENT_TEAM = 78S4SSQ86F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = otus.QuitSmoking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.garneteum.otus-QuitSmoking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16B63108257FC81800B664C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"otus.QuitSmoking/Preview Content\"";
+				DEVELOPMENT_TEAM = 78S4SSQ86F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = otus.QuitSmoking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.garneteum.otus-QuitSmoking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16B630F2257FC81700B664C7 /* Build configuration list for PBXProject "otus.QuitSmoking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16B63104257FC81800B664C7 /* Debug */,
+				16B63105257FC81800B664C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16B63106257FC81800B664C7 /* Build configuration list for PBXNativeTarget "otus.QuitSmoking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16B63107257FC81800B664C7 /* Debug */,
+				16B63108257FC81800B664C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16B630EF257FC81700B664C7 /* Project object */;
+}
